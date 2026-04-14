@@ -65,7 +65,7 @@
     "title": "> stack.json",
     "legal_label": "Direito e Política",
     "tech_label": "Tecnologia",
-    "legal": ["Ética de IA", "Governança da Internet", "Direito TIC", "Proteção de Dados", "Transparência", "Sistema Anticorrupção", "Contratação Pública TIC"],
+    "legal": ["Ética da IA", "Governança da Internet", "Direito das TIC", "Proteção de Dados", "Contratação Pública de TIC"],
     "tech": ["Python", "JavaScript", "Next.js", "Supabase", "n8n", "Claude API", "Ciência de Dados", "Git/GitHub"]
   },
   "timeline": {
