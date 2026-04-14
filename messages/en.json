@@ -13,8 +13,8 @@
   "hero": {
     "prompt": "~/juan@juanmacias.site:~$_",
     "name": "Juan Macías Sierra",
-    "subtitle": "// Law · AI Ethics · Digital Governance · Data Science",
-    "tagline": "A decade at the intersection of law, technology, and public life.",
+    "subtitle": "// Law · AI Ethics · Data Science",
+    "tagline": "At the intersection of Law, Artificial Intelligence and its Ethical Governance.",
     "stats": [
       { "value": "10+", "label": "years", "sub": "public & academic experience" },
       { "value": "2", "label": "master's degrees", "sub": "UNAM · INFOTEC" },

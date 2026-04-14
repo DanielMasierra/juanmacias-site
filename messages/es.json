@@ -13,8 +13,8 @@
   "hero": {
     "prompt": "~/juan@juanmacias.site:~$_",
     "name": "Juan Macías Sierra",
-    "subtitle": "// Derecho · Ética de IA · Gobernanza Digital · Ciencia de Datos",
-    "tagline": "Una década en la intersección del derecho, la tecnología y la vida pública.",
+    "subtitle": "// Derecho · Ética de IA · Ciencia de Datos",
+    "tagline": "En la intersección del Derecho, la Inteligencia Artificial y su Gobernanza Ética.",
     "stats": [
       { "value": "10+", "label": "años", "sub": "experiencia pública y académica" },
       { "value": "2", "label": "maestrías", "sub": "UNAM · INFOTEC" },
