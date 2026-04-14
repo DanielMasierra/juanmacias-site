@@ -65,7 +65,7 @@
     "title": "> stack.json",
     "legal_label": "Law & Policy",
     "tech_label": "Technology",
-    "legal": ["AI Ethics", "Internet Governance", "ICT Law", "Data Protection", "Transparency", "Anti-Corruption System", "Amparo", "Public ICT Procurement"],
+    "legal": ["AI Ethics", "Internet Governance", "ICT Law", "Data Protection", "Transparency", "Anti-Corruption System", "Public ICT Procurement"],
     "tech": ["Python", "JavaScript", "Next.js", "Supabase", "n8n", "Claude API", "Data Science", "Git/GitHub"]
   },
   "timeline": {
