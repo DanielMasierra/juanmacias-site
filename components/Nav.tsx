@@ -14,7 +14,7 @@ export default function Nav() {
     router.push(segments.join('/'));
   };
 
-  const navItems = ['about', 'projects', 'stack', 'publications', 'conferences', 'teaching', 'awards', 'fellowships', 'contact'] as const;
+  const navItems = ['about', 'projects', 'stack', 'publications', 'conferences', 'teaching', 'fellowships', 'awards', 'contact'] as const;
 
   return (
     <nav style={{
@@ -30,17 +30,28 @@ export default function Nav() {
       flexWrap: 'wrap',
       gap: '0.5rem'
     }}>
-      <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>
+      <div style={{
+        display: 'flex',
+        gap: '1rem',
+        flexWrap: 'nowrap',
+        overflowX: 'auto',
+        scrollbarWidth: 'none',
+        msOverflowStyle: 'none' as React.CSSProperties['msOverflowStyle'],
+        alignItems: 'center',
+        flex: 1
+      }}>
         {navItems.map((item) => (
           <a
             key={item}
             href={`#${item}`}
             style={{
               fontFamily: 'var(--font-mono)',
-              fontSize: '0.8rem',
+              fontSize: '0.75rem',
               color: 'var(--text-secondary)',
               textDecoration: 'none',
-              transition: 'color 0.2s'
+              transition: 'color 0.2s',
+              whiteSpace: 'nowrap',
+              flexShrink: 0
             }}
             onMouseEnter={e => (e.currentTarget.style.color = 'var(--color-primary)')}
             onMouseLeave={e => (e.currentTarget.style.color = 'var(--text-secondary)')}

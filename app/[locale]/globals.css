@@ -155,6 +155,11 @@ body::after {
   color: var(--color-secondary);
 }
 
+/* Nav scrollbar hide */
+nav div::-webkit-scrollbar {
+  display: none;
+}
+
 /* Links */
 a {
   color: var(--color-primary);
