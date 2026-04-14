@@ -70,15 +70,21 @@
   },
   "timeline": {
     "title": "> career_log",
+    "thesis_label": "Thesis",
+    "advisor_label": "Advisor",
+    "view_thesis": "view thesis →",
     "items": [
-      { "period": "2025–present", "role": "B.S. AI & Data Science", "org": "Universidad de Guadalajara" },
-      { "period": "2022–present", "role": "Director of Human & Financial Resources", "org": "Contraloría del Estado de Jalisco" },
-      { "period": "2022–present", "role": "Secretary General", "org": "AMCID" },
-      { "period": "2021–2022", "role": "Director of Technical Area & Asset Disclosure", "org": "Contraloría del Estado de Jalisco" },
-      { "period": "2019–present", "role": "Member, Law & AI Research Line", "org": "IIJ, UNAM" },
-      { "period": "2019–2021", "role": "Professor — Blockchain & Legal Implications", "org": "Universidad Anáhuac Online" },
-      { "period": "2016–2019", "role": "Information Analyst, National Digital Strategy", "org": "Presidencia de la República" },
-      { "period": "2014–2016", "role": "Research Assistant", "org": "IIJ, UNAM" }
+      { "period": "2025–present", "role": "B.S. AI & Data Science", "org": "Universidad de Guadalajara", "type": "education" },
+      { "period": "2022–present", "role": "Director of Human & Financial Resources", "org": "Contraloría del Estado de Jalisco", "type": "work" },
+      { "period": "2022–present", "role": "Secretary General", "org": "AMCID", "type": "work" },
+      { "period": "2021–2022", "role": "Director of Technical Area & Asset Disclosure", "org": "Contraloría del Estado de Jalisco", "type": "work" },
+      { "period": "2019–2021", "role": "Master of Law", "org": "Universidad Nacional Autónoma de México (UNAM)", "type": "education", "thesis": "Artificial Moral Agents: ethical questions, legal implications, and the role of AI Ethics Committees", "advisor": "Dr. María de Jesús Medina Arellano", "thesis_url": null },
+      { "period": "2019–present", "role": "Member, Law & AI Research Line", "org": "IIJ, UNAM", "type": "work" },
+      { "period": "2019–2021", "role": "Professor — Blockchain & Legal Implications", "org": "Universidad Anáhuac Online", "type": "work" },
+      { "period": "2018–2020", "role": "Master in ICT Law", "org": "INFOTEC", "type": "education", "thesis": "Internet Governance in Mexico: proposals to strengthen its multistakeholder model", "advisor": null, "thesis_url": null },
+      { "period": "2016–2019", "role": "Information Analyst, National Digital Strategy", "org": "Presidencia de la República", "type": "work" },
+      { "period": "2014–2016", "role": "Research Assistant", "org": "IIJ, UNAM", "type": "work" },
+      { "period": "2010–2015", "role": "Bachelor of Laws (LLB)", "org": "Universidad de Guadalajara", "type": "education" }
     ]
   },
   "teaching": {

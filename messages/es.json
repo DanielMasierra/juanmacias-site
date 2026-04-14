@@ -70,15 +70,21 @@
   },
   "timeline": {
     "title": "> career_log",
+    "thesis_label": "Tesis",
+    "advisor_label": "Dir.",
+    "view_thesis": "ver tesis →",
     "items": [
-      { "period": "2025–presente", "role": "Licenciatura en IA y Ciencia de los Datos", "org": "Universidad de Guadalajara" },
-      { "period": "2022–presente", "role": "Director de Recursos Humanos y Financieros", "org": "Contraloría del Estado de Jalisco" },
-      { "period": "2022–presente", "role": "Secretario General", "org": "AMCID" },
-      { "period": "2021–2022", "role": "Director de Área Técnica y Situación Patrimonial", "org": "Contraloría del Estado de Jalisco" },
-      { "period": "2019–presente", "role": "Miembro, Línea de Investigación Derecho e IA", "org": "IIJ, UNAM" },
-      { "period": "2019–2021", "role": "Profesor — Blockchain e Implicaciones Legales", "org": "Universidad Anáhuac Online" },
-      { "period": "2016–2019", "role": "Analista de Información, Estrategia Digital Nacional", "org": "Presidencia de la República" },
-      { "period": "2014–2016", "role": "Asistente de Investigación", "org": "IIJ, UNAM" }
+      { "period": "2025–presente", "role": "Licenciatura en IA y Ciencia de los Datos", "org": "Universidad de Guadalajara", "type": "education" },
+      { "period": "2022–presente", "role": "Director de Recursos Humanos y Financieros", "org": "Contraloría del Estado de Jalisco", "type": "work" },
+      { "period": "2022–presente", "role": "Secretario General", "org": "AMCID", "type": "work" },
+      { "period": "2021–2022", "role": "Director de Área Técnica y Situación Patrimonial", "org": "Contraloría del Estado de Jalisco", "type": "work" },
+      { "period": "2019–2021", "role": "Maestría en Derecho", "org": "Universidad Nacional Autónoma de México (UNAM)", "type": "education", "thesis": "Agentes Morales Artificiales: cuestiones éticas, implicaciones jurídicas y el rol de los Comités de Ética en Inteligencia Artificial", "advisor": "Dra. María de Jesús Medina Arellano", "thesis_url": null },
+      { "period": "2019–presente", "role": "Miembro, Línea de Investigación Derecho e IA", "org": "IIJ, UNAM", "type": "work" },
+      { "period": "2019–2021", "role": "Profesor — Blockchain e Implicaciones Legales", "org": "Universidad Anáhuac Online", "type": "work" },
+      { "period": "2018–2020", "role": "Maestría en Derecho de las TIC", "org": "INFOTEC", "type": "education", "thesis": "La Gobernanza de Internet en México: sugerencias para fortalecer su modelo multisectorial", "advisor": null, "thesis_url": null },
+      { "period": "2016–2019", "role": "Analista de Información, Estrategia Digital Nacional", "org": "Presidencia de la República", "type": "work" },
+      { "period": "2014–2016", "role": "Asistente de Investigación", "org": "IIJ, UNAM", "type": "work" },
+      { "period": "2010–2015", "role": "Licenciatura en Derecho", "org": "Universidad de Guadalajara", "type": "education" }
     ]
   },
   "teaching": {
