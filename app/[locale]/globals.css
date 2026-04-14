@@ -201,3 +201,16 @@ a:hover {
     padding: 0.6rem 1rem !important;
   }
 }
+
+/* Hamburger / mobile nav */
+@media (max-width: 640px) {
+  .nav-desktop {
+    display: none !important;
+  }
+  .nav-hamburger {
+    display: flex !important;
+  }
+  .nav-mobile-menu {
+    display: flex !important;
+  }
+}
