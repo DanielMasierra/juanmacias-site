@@ -1,0 +1,158 @@
+{
+  "nav": {
+    "about": "~/about",
+    "projects": "~/projects",
+    "stack": "~/stack",
+    "publications": "~/publications",
+    "conferences": "~/conferences",
+    "teaching": "~/teaching",
+    "awards": "~/awards",
+    "contact": "~/contact"
+  },
+  "hero": {
+    "prompt": "~/juan@juanmacias.site:~$_",
+    "name": "Juan Macías Sierra",
+    "subtitle": "// Law · AI Ethics · Digital Governance · Data Science",
+    "tagline": "A decade at the intersection of law, technology, and public life.",
+    "stats": [
+      { "value": "10+", "label": "years", "sub": "public & academic experience" },
+      { "value": "2", "label": "master's degrees", "sub": "UNAM · INFOTEC" },
+      { "value": "3", "label": "active roles", "sub": "official · researcher · builder" }
+    ]
+  },
+  "about": {
+    "title": "> about.md",
+    "bio": "I hold a Master of Law from UNAM, I'm a public official, and an enthusiast of artificial intelligence, its governance, and the ethical development of technology. I've spent over a decade working at the intersection of law, digital policy, and the Mexican public sector. I currently serve at the Contraloría del Estado de Jalisco, I'm a member of the Law & AI Research Line at IIJ-UNAM, and Secretary General of AMCID. I'm studying Data Science and AI at Universidad de Guadalajara, and stepping into the world of vibe coding and spec-driven development. I believe law and technology need each other — and I'm interested in building at that frontier, in service of access to justice.",
+    "roles": [
+      "Director of Human & Financial Resources — Contraloría del Estado de Jalisco",
+      "Student, B.S. Data Science & AI — Universidad de Guadalajara",
+      "Member, Law & AI Research Line — IIJ, UNAM",
+      "Secretary General — AMCID",
+      "ICANN Fellow (Abu Dhabi, 2017)"
+    ]
+  },
+  "projects": {
+    "title": "> active_projects.json",
+    "building": "[building]",
+    "visit": "View project →",
+    "mcp": "Connect via MCP →",
+    "items": [
+      {
+        "name": "IusBot",
+        "description": "Legal chatbot for Mexican jurisprudence connected to the Semanario Judicial de la Federación (SJF). Available as an MCP server.",
+        "tags": ["Legal AI", "MCP", "NLP"],
+        "status": "building",
+        "github": "https://github.com/DanielMasierra/iusbot",
+        "mcp": "https://mcp.iusbot.online/mcp"
+      },
+      {
+        "name": "Lex Graph Agent",
+        "description": "Legislative analysis agent based on legal knowledge graphs.",
+        "tags": ["AI Agent", "Legal", "Knowledge Graph"],
+        "status": "building",
+        "github": "https://github.com/DanielMasierra/lex-graph"
+      },
+      {
+        "name": "Civilis Agent",
+        "description": "Civic intelligence agent for citizen participation and governance analysis.",
+        "tags": ["AI Agent", "Civic Tech", "Governance"],
+        "status": "building",
+        "github": "https://github.com/DanielMasierra/civilis"
+      }
+    ]
+  },
+  "stack": {
+    "title": "> stack.json",
+    "legal_label": "Law & Policy",
+    "tech_label": "Technology",
+    "legal": ["AI Ethics", "Internet Governance", "ICT Law", "Data Protection", "Transparency", "Anti-Corruption System", "Amparo", "Public ICT Procurement"],
+    "tech": ["Python", "JavaScript", "Next.js", "Supabase", "n8n", "Claude API", "Data Science", "Git/GitHub"]
+  },
+  "timeline": {
+    "title": "> career_log",
+    "items": [
+      { "period": "2025–present", "role": "B.S. AI & Data Science", "org": "Universidad de Guadalajara" },
+      { "period": "2022–present", "role": "Director of Human & Financial Resources", "org": "Contraloría del Estado de Jalisco" },
+      { "period": "2022–present", "role": "Secretary General", "org": "AMCID" },
+      { "period": "2021–2022", "role": "Director of Technical Area & Asset Disclosure", "org": "Contraloría del Estado de Jalisco" },
+      { "period": "2019–present", "role": "Member, Law & AI Research Line", "org": "IIJ, UNAM" },
+      { "period": "2019–2021", "role": "Professor — Blockchain & Legal Implications", "org": "Universidad Anáhuac Online" },
+      { "period": "2016–2019", "role": "Information Analyst, National Digital Strategy", "org": "Presidencia de la República" },
+      { "period": "2014–2016", "role": "Research Assistant", "org": "IIJ, UNAM" },
+      { "period": "2013–2014", "role": "CONACYT Fellow — International Human Rights Law", "org": "CONACYT" }
+    ]
+  },
+  "teaching": {
+    "title": "> teaching.log",
+    "items": [
+      { "year": "2021", "course": "Ethics and Artificial Intelligence", "program": "Introduction to AI for Lawyers and Humanists", "institution": "Instituto de Investigaciones Jurídicas, UNAM", "type": "Module" },
+      { "year": "2021", "course": "Internet Governance & Regulation", "program": "Workshop on Digital Justice, AI and Privacy Law", "institution": "Universidad Autónoma de Yucatán", "type": "Module" },
+      { "year": "2019–2021", "course": "Legal Implications of Blockchain", "program": "Blockchain Diploma", "institution": "Universidad Anáhuac Online", "type": "Course" },
+      { "year": "2019–2021", "course": "Blockchain Technology", "program": "Blockchain Diploma", "institution": "Universidad Anáhuac Online", "type": "Course" },
+      { "year": "2022", "course": "Asset Disclosure Declarations", "program": "Diploma: Accountability and Anti-Corruption in Local Government", "institution": "SEA Jalisco / UdeG / Contraloría del Estado", "type": "Module" },
+      { "year": "2022", "course": "Asset Evolution", "program": "Seminar on Contemporary Topics in Internal Control", "institution": "Colegio de Jalisco / Contraloría del Estado de Jalisco", "type": "Workshop" }
+    ]
+  },
+  "publications": {
+    "title": "> publications[]",
+    "show_more": "View all publications",
+    "show_less": "Show less",
+    "items": [
+      { "year": 2022, "title": "Neuroethics, Neurolegal Studies and Artificial Intelligence. Transversal Teaching in Bioethics and Biolaw", "venue": "Instituto de Investigaciones Jurídicas, UNAM", "isbn": "978-607-30-6440-8", "role": "Co-author", "url": "https://biblio.juridicas.unam.mx/bjv/detalle-libro/6015-10-etica-de-investigacion-en-animales-ensenanza-transversal-en-bioetica-y-bioderecho-cuadernillos-digitales-de-casos" },
+      { "year": 2017, "title": "A Legal Framework for Internet Governance", "venue": "Youth Observatory ISG / Internet Society", "pages": "115–120" },
+      { "year": 2016, "title": "Geolocation, Metadata and Privacy: Analysis of Amparo en Revisión 964/2015", "venue": "XX FIADI Congress, Universidad de Salamanca", "isbn": "978-84-16324-43-9", "pages": "187–200" },
+      { "year": 2016, "title": "Internet Governance, an Open Invitation", "venue": "Revista Hechos y Derechos, IIJ-UNAM, No. 34", "url": "https://revistas.juridicas.unam.mx/index.php/hechos-y-derechos/article/view/10564/12727" },
+      { "year": 2016, "title": "Social Media, Transparency and Public Shaming", "venue": "Revista Hechos y Derechos, IIJ-UNAM, No. 32", "url": "https://revistas.juridicas.unam.mx/index.php/hechos-y-derechos/article/view/10324/12343" },
+      { "year": 2016, "title": "How Wikipedia Helps Us Become Better Law Students", "venue": "Revista Hechos y Derechos, IIJ-UNAM, No. 31", "url": "http://biblio.juridicas.unam.mx/revista/HechosyDerechos/cont/31/art30.htm" },
+      { "year": 2015, "title": "Internet, Access to Justice and Legal Culture: The New Challenge for Public Defenders in Mexico", "venue": "FODERTICS 4.0, Universidad de Salamanca", "isbn": "978-84-9045-274-5", "pages": "261–269" },
+      { "year": 2015, "title": "Opening Up!: Legal Aspects for Open Government in Mexico City", "venue": "7th InfoDF Essay Contest", "isbn": "978-607-7702-04-7" },
+      { "year": 2014, "title": "Pluralism and Youth: Hope for Democracy and the Role of the Congressional Channel", "venue": "Senado de la República, Instituto Belisario Domínguez" },
+      { "year": 2014, "title": "Innovation, Participation and Democracy: The Role of the Congressional Channel", "venue": "Senado de la República, Instituto Belisario Domínguez" }
+    ]
+  },
+  "conferences": {
+    "title": "> conference_log",
+    "show_more": "View all conferences",
+    "show_less": "Show less",
+    "roles": { "speaker": "[speaker]", "moderator": "[moderator]", "expositor": "[presenter]" },
+    "items": [
+      { "year": 2022, "role": "speaker", "title": "«Asset Evolution»", "event": "Seminar on Contemporary Topics in Internal Control", "org": "Colegio de Jalisco / Contraloría del Estado de Jalisco", "date": "Oct 2022" },
+      { "year": 2022, "role": "expositor", "title": "«Asset Disclosure Declarations»", "event": "Diploma: Accountability and Anti-Corruption in Local Government", "org": "SEA Jalisco / UdeG / Contraloría", "date": "May 2022" },
+      { "year": 2021, "role": "speaker", "title": "«Ethics and Artificial Intelligence»", "event": "Introduction to AI for Lawyers and Humanists", "org": "IIJ, UNAM", "date": "Dec 2021" },
+      { "year": 2021, "role": "speaker", "title": "«Internet Governance & Regulation»", "event": "Workshop on Digital Justice, AI and Privacy Law", "org": "Universidad Autónoma de Yucatán", "date": "Nov 2021" },
+      { "year": 2017, "role": "speaker", "title": "«Internet Governance and the Academic Community»", "event": "XXI FIADI Congress on Law and Informatics", "org": "UASLP", "date": "Sep 2017" },
+      { "year": 2017, "role": "moderator", "title": "Panel: «Internet Governance»", "event": "5th World Internet Day Forum Mexico", "org": "IIJ-UNAM / INFOTEC / Microsoft", "date": "May 2017" },
+      { "year": 2016, "role": "speaker", "title": "«Geolocation, Metadata and Privacy»", "event": "XX FIADI Congress on Law and Informatics", "org": "Universidad de Salamanca, Spain", "date": "Oct 2016" },
+      { "year": 2016, "role": "speaker", "title": "«Electoral Observatory 2.0»", "event": "4th World Internet Day Forum Mexico", "org": "Facultad de Derecho, UNAM", "date": "May 2016" },
+      { "year": 2015, "role": "moderator", "title": "3rd Latin American Cybersecurity Encounter", "event": "Cybercrime and Digital Forensics", "org": "INFOTEC / AMDETIC / UNAM", "date": "Sep 2015" },
+      { "year": 2015, "role": "expositor", "title": "«Open Government & Open Data»", "event": "Open Government and Data Forum", "org": "H. Congreso del Estado de Jalisco", "date": "Oct 2015" },
+      { "year": 2015, "role": "speaker", "title": "«Government Archives and Cloud Computing»", "event": "XIX FIADI Congress on Law and Informatics", "org": "Pontificia Universidad Bolivariana, Medellín, Colombia", "date": "Aug 2015" },
+      { "year": 2015, "role": "speaker", "title": "«Internet, Access to Justice and Legal Culture»", "event": "IV Forum of Young Researchers in Law and New Technologies", "org": "Universidad de Salamanca (virtual)", "date": "Mar 2015" }
+    ]
+  },
+  "awards": {
+    "title": "> awards.log",
+    "items": [
+      { "year": 2019, "prize": "Fellow", "title": "Southern School on Internet Governance", "org": "Mexico City", "highlight": false },
+      { "year": 2017, "prize": "2nd place", "title": "III Premio Valentín Carrascosa, FIADI", "detail": "«Internet Governance and the Academic Community»", "org": "Federación Iberoamericana de Asociaciones de Derecho e Informática", "highlight": false },
+      { "year": 2017, "prize": "Fellow", "title": "ICANN Fellow — 60th Public Meeting", "detail": "Abu Dhabi, United Arab Emirates", "org": "Internet Corporation for Assigned Names and Numbers", "highlight": true },
+      { "year": 2014, "prize": "1st place", "title": "7th «Students Building Transparency» Essay Contest", "detail": "«Opening Up!: Legal Aspects for Open Government in Mexico City»", "org": "InfoDF", "highlight": false },
+      { "year": 2014, "prize": "1st place", "title": "7th Regional «Building Transparency 2014» Award", "detail": "«Government Archives and Cloud Computing»", "org": "COMAIP Región Centro Occidente", "highlight": false },
+      { "year": 2014, "prize": "1st place", "title": "Essay Contest «Transparency and Accountability»", "detail": "«Innovation, Participation and Democracy»", "org": "Bicameral Commission and Canal del Congreso", "highlight": false },
+      { "year": 2013, "prize": "1st place", "title": "State Political Essay Contest", "detail": "«Electronic Voting and Trust»", "org": "Instituto Electoral y de Participación Ciudadana Jalisco", "highlight": false },
+      { "year": 2012, "prize": "3rd place", "title": "2nd Essay Contest «Elections and Democracy»", "detail": "«Pluralism and Youth»", "org": "Bicameral Commission and Canal del Congreso", "highlight": false },
+      { "year": 2012, "prize": "2nd place", "title": "Third UNESCO Chair Contest", "detail": "«Indifference, Violence and Punishment»", "org": "CONAPRED / Universidad de Guadalajara", "highlight": false },
+      { "year": 2012, "prize": "Honorable mention", "title": "6th Regional Transparency Award", "detail": "«The Importance of Knowledge»", "org": "COMAIP Región Centro Occidente", "highlight": false },
+      { "year": 2012, "prize": "1st place", "title": "State Political Short Story Contest", "detail": "«La defensa francesa»", "org": "Instituto Electoral y de Participación Ciudadana Jalisco", "highlight": false }
+    ]
+  },
+  "footer": {
+    "tagline": "Built with intention.",
+    "links": {
+      "linkedin": "https://linkedin.com/in/juanmaciassierra",
+      "github": "https://github.com/DanielMasierra",
+      "email": "mailto:juanmacias.sierra@gmail.com",
+      "twitter": "https://twitter.com/JMaciasSierra"
+    }
+  }
+}

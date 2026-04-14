@@ -1,0 +1,158 @@
+{
+  "nav": {
+    "about": "~/sobre-mim",
+    "projects": "~/projetos",
+    "stack": "~/stack",
+    "publications": "~/publicações",
+    "conferences": "~/congressos",
+    "teaching": "~/docência",
+    "awards": "~/prêmios",
+    "contact": "~/contato"
+  },
+  "hero": {
+    "prompt": "~/juan@juanmacias.site:~$_",
+    "name": "Juan Macías Sierra",
+    "subtitle": "// Direito · Ética de IA · Governança Digital · Ciência de Dados",
+    "tagline": "Uma década na interseção do direito, tecnologia e vida pública.",
+    "stats": [
+      { "value": "10+", "label": "anos", "sub": "experiência pública e acadêmica" },
+      { "value": "2", "label": "mestrados", "sub": "UNAM · INFOTEC" },
+      { "value": "3", "label": "papéis ativos", "sub": "servidor · pesquisador · construtor" }
+    ]
+  },
+  "about": {
+    "title": "> about.md",
+    "bio": "Sou Mestre em Direito pela UNAM, servidor público e entusiasta da inteligência artificial, sua governança e o desenvolvimento ético da tecnologia. Tenho mais de uma década trabalhando na interseção do direito, políticas digitais e o setor público mexicano. Atualmente atuo na Contraloría del Estado de Jalisco, sou membro da Linha de Pesquisa em Direito e IA do IIJ-UNAM e Secretário Geral da AMCID. Estudo Ciência de Dados e IA na Universidad de Guadalajara, e estou ingressando no mundo do vibe coding e o spec-driven development. Acredito que o direito e a tecnologia se precisam mutuamente — e me interessa construir nessa fronteira, em prol do acesso à justiça.",
+    "roles": [
+      "Diretor de Recursos Humanos e Financeiros — Contraloría del Estado de Jalisco",
+      "Estudante, Bacharelado Ciência de Dados e IA — Universidad de Guadalajara",
+      "Membro, Linha de Pesquisa Direito e IA — IIJ, UNAM",
+      "Secretário Geral — AMCID",
+      "ICANN Fellow (Abu Dhabi, 2017)"
+    ]
+  },
+  "projects": {
+    "title": "> active_projects.json",
+    "building": "[em desenvolvimento]",
+    "visit": "Ver projeto →",
+    "mcp": "Conectar via MCP →",
+    "items": [
+      {
+        "name": "IusBot",
+        "description": "Chatbot jurídico para jurisprudência mexicana conectado ao Semanario Judicial de la Federación (SJF). Disponível como servidor MCP.",
+        "tags": ["Legal AI", "MCP", "NLP"],
+        "status": "building",
+        "github": "https://github.com/DanielMasierra/iusbot",
+        "mcp": "https://mcp.iusbot.online/mcp"
+      },
+      {
+        "name": "Lex Graph Agent",
+        "description": "Agente de análise legislativa baseado em grafos de conhecimento jurídico.",
+        "tags": ["AI Agent", "Legal", "Knowledge Graph"],
+        "status": "building",
+        "github": "https://github.com/DanielMasierra/lex-graph"
+      },
+      {
+        "name": "Civilis Agent",
+        "description": "Agente de inteligência cívica para análise de participação cidadã e governança.",
+        "tags": ["AI Agent", "Civic Tech", "Governance"],
+        "status": "building",
+        "github": "https://github.com/DanielMasierra/civilis"
+      }
+    ]
+  },
+  "stack": {
+    "title": "> stack.json",
+    "legal_label": "Direito e Política",
+    "tech_label": "Tecnologia",
+    "legal": ["Ética de IA", "Governança da Internet", "Direito TIC", "Proteção de Dados", "Transparência", "Sistema Anticorrupção", "Amparo", "Contratação Pública TIC"],
+    "tech": ["Python", "JavaScript", "Next.js", "Supabase", "n8n", "Claude API", "Ciência de Dados", "Git/GitHub"]
+  },
+  "timeline": {
+    "title": "> career_log",
+    "items": [
+      { "period": "2025–presente", "role": "Bacharelado em IA e Ciência de Dados", "org": "Universidad de Guadalajara" },
+      { "period": "2022–presente", "role": "Diretor de Recursos Humanos e Financeiros", "org": "Contraloría del Estado de Jalisco" },
+      { "period": "2022–presente", "role": "Secretário Geral", "org": "AMCID" },
+      { "period": "2021–2022", "role": "Diretor de Área Técnica e Situação Patrimonial", "org": "Contraloría del Estado de Jalisco" },
+      { "period": "2019–presente", "role": "Membro, Linha de Pesquisa Direito e IA", "org": "IIJ, UNAM" },
+      { "period": "2019–2021", "role": "Professor — Blockchain e Implicações Legais", "org": "Universidad Anáhuac Online" },
+      { "period": "2016–2019", "role": "Analista de Informação, Estratégia Digital Nacional", "org": "Presidencia de la República" },
+      { "period": "2014–2016", "role": "Assistente de Pesquisa", "org": "IIJ, UNAM" },
+      { "period": "2013–2014", "role": "Bolsista CONACYT — Direitos Humanos Internacionais", "org": "CONACYT" }
+    ]
+  },
+  "teaching": {
+    "title": "> docência.log",
+    "items": [
+      { "year": "2021", "course": "Ética e Inteligência Artificial", "program": "Introdução à IA para Advogados e Humanistas", "institution": "Instituto de Investigaciones Jurídicas, UNAM", "type": "Módulo" },
+      { "year": "2021", "course": "Governança e Regulação da Internet", "program": "Oficina de Justiça Digital, IA e Direito à Privacidade", "institution": "Universidad Autónoma de Yucatán", "type": "Módulo" },
+      { "year": "2019–2021", "course": "Implicações Legais do Blockchain", "program": "Diploma em Blockchain", "institution": "Universidad Anáhuac Online", "type": "Disciplina" },
+      { "year": "2019–2021", "course": "Tecnologia Blockchain", "program": "Diploma em Blockchain", "institution": "Universidad Anáhuac Online", "type": "Disciplina" },
+      { "year": "2022", "course": "Declarações de Patrimônio", "program": "Diploma: Prestação de Contas e Controle de Corrupção Municipal", "institution": "SEA Jalisco / UdeG / Contraloría del Estado", "type": "Módulo" },
+      { "year": "2022", "course": "Evolução Patrimonial", "program": "Seminário de Atualização em Controle Interno", "institution": "Colegio de Jalisco / Contraloría del Estado de Jalisco", "type": "Oficina" }
+    ]
+  },
+  "publications": {
+    "title": "> publications[]",
+    "show_more": "Ver todas as publicações",
+    "show_less": "Ver menos",
+    "items": [
+      { "year": 2022, "title": "Neuroética, Neuroderecho e Inteligência Artificial. Ensino Transversal em Bioética e Biodireito", "venue": "Instituto de Investigaciones Jurídicas, UNAM", "isbn": "978-607-30-6440-8", "role": "Coautor", "url": "https://biblio.juridicas.unam.mx/bjv/detalle-libro/6015-10-etica-de-investigacion-en-animales-ensenanza-transversal-en-bioetica-y-bioderecho-cuadernillos-digitales-de-casos" },
+      { "year": 2017, "title": "Um Direito para a Governança da Internet", "venue": "Youth Observatory ISG / Internet Society", "pages": "115–120" },
+      { "year": 2016, "title": "Geolocalização, Metadados e Privacidade: Análise do Amparo em Revisão 964/2015", "venue": "XX Congresso FIADI, Universidad de Salamanca", "isbn": "978-84-16324-43-9", "pages": "187–200" },
+      { "year": 2016, "title": "Governança da Internet, um Convite Aberto", "venue": "Revista Hechos y Derechos, IIJ-UNAM, No. 34", "url": "https://revistas.juridicas.unam.mx/index.php/hechos-y-derechos/article/view/10564/12727" },
+      { "year": 2016, "title": "Redes Sociais, Transparência e Humilhação Pública", "venue": "Revista Hechos y Derechos, IIJ-UNAM, No. 32", "url": "https://revistas.juridicas.unam.mx/index.php/hechos-y-derechos/article/view/10324/12343" },
+      { "year": 2016, "title": "Como a Wikipédia nos Ajuda a Ser Melhores Estudantes de Direito", "venue": "Revista Hechos y Derechos, IIJ-UNAM, No. 31", "url": "http://biblio.juridicas.unam.mx/revista/HechosyDerechos/cont/31/art30.htm" },
+      { "year": 2015, "title": "Internet, Acesso à Justiça e Cultura Jurídica: O Novo Desafio das Defensorias Públicas no México", "venue": "FODERTICS 4.0, Universidad de Salamanca", "isbn": "978-84-9045-274-5", "pages": "261–269" },
+      { "year": 2015, "title": "Vamos Abrindo!: Aspectos Jurídicos para o Governo Aberto na Cidade do México", "venue": "7o Concurso InfoDF", "isbn": "978-607-7702-04-7" },
+      { "year": 2014, "title": "Pluralismo e Juventude: Esperança para a Democracia e o Canal do Congresso", "venue": "Senado de la República, Instituto Belisario Domínguez" },
+      { "year": 2014, "title": "Inovação, Participação e Democracia: O Papel do Canal do Congresso", "venue": "Senado de la República, Instituto Belisario Domínguez" }
+    ]
+  },
+  "conferences": {
+    "title": "> conference_log",
+    "show_more": "Ver todos os congressos",
+    "show_less": "Ver menos",
+    "roles": { "speaker": "[palestrante]", "moderator": "[moderador]", "expositor": "[expositor]" },
+    "items": [
+      { "year": 2022, "role": "speaker", "title": "«Evolução Patrimonial»", "event": "Seminário de Atualização em Controle Interno", "org": "Colegio de Jalisco / Contraloría del Estado de Jalisco", "date": "Out 2022" },
+      { "year": 2022, "role": "expositor", "title": "«Declarações de Patrimônio»", "event": "Diploma: Prestação de Contas e Controle de Corrupção Municipal", "org": "SEA Jalisco / UdeG / Contraloría", "date": "Mai 2022" },
+      { "year": 2021, "role": "speaker", "title": "«Ética e Inteligência Artificial»", "event": "Introdução à IA para Advogados e Humanistas", "org": "IIJ, UNAM", "date": "Dez 2021" },
+      { "year": 2021, "role": "speaker", "title": "«Governança e Regulação da Internet»", "event": "Oficina de Justiça Digital, IA e Privacidade", "org": "Universidad Autónoma de Yucatán", "date": "Nov 2021" },
+      { "year": 2017, "role": "speaker", "title": "«Governança da Internet e a Comunidade Acadêmica»", "event": "XXI Congresso FIADI de Direito e Informática", "org": "UASLP", "date": "Set 2017" },
+      { "year": 2017, "role": "moderator", "title": "Mesa: «Governança da Internet»", "event": "5o Fórum Dia Mundial da Internet México", "org": "IIJ-UNAM / INFOTEC / Microsoft", "date": "Mai 2017" },
+      { "year": 2016, "role": "speaker", "title": "«Geolocalização, Metadados e Privacidade»", "event": "XX Congresso FIADI de Direito e Informática", "org": "Universidad de Salamanca, Espanha", "date": "Out 2016" },
+      { "year": 2016, "role": "speaker", "title": "«Observatório Eleitoral 2.0»", "event": "4o Fórum Dia Mundial da Internet México", "org": "Facultad de Derecho, UNAM", "date": "Mai 2016" },
+      { "year": 2015, "role": "moderator", "title": "3o Encontro Latino-americano sobre Cibersegurança", "event": "Crimes Cibernéticos e Forense Digital", "org": "INFOTEC / AMDETIC / UNAM", "date": "Set 2015" },
+      { "year": 2015, "role": "expositor", "title": "«Governo e Dados Abertos»", "event": "Fórum de Governo e Dados Abertos", "org": "H. Congreso del Estado de Jalisco", "date": "Out 2015" },
+      { "year": 2015, "role": "speaker", "title": "«Arquivos Governamentais e Computação em Nuvem»", "event": "XIX Congresso FIADI de Direito e Informática", "org": "Pontificia Universidad Bolivariana, Medellín, Colômbia", "date": "Ago 2015" },
+      { "year": 2015, "role": "speaker", "title": "«Internet, Acesso à Justiça e Cultura Jurídica»", "event": "IV Fórum de Jovens Pesquisadores em Direito e Novas Tecnologias", "org": "Universidad de Salamanca (virtual)", "date": "Mar 2015" }
+    ]
+  },
+  "awards": {
+    "title": "> awards.log",
+    "items": [
+      { "year": 2019, "prize": "Fellow", "title": "Escola do Sul de Governança da Internet", "org": "Cidade do México", "highlight": false },
+      { "year": 2017, "prize": "2o lugar", "title": "III Prêmio Valentín Carrascosa, FIADI", "detail": "«Governança da Internet e a Comunidade Acadêmica»", "org": "Federación Iberoamericana de Asociaciones de Derecho e Informática", "highlight": false },
+      { "year": 2017, "prize": "Fellow", "title": "ICANN Fellow — 60a Reunião Geral", "detail": "Abu Dhabi, Emirados Árabes Unidos", "org": "Internet Corporation for Assigned Names and Numbers", "highlight": true },
+      { "year": 2014, "prize": "1o lugar", "title": "7o Concurso «Universitários Construindo Transparência»", "detail": "«Vamos Abrindo!»", "org": "InfoDF", "highlight": false },
+      { "year": 2014, "prize": "1o lugar", "title": "7o Prêmio Regional «Construindo a Transparência 2014»", "detail": "«Arquivos Governamentais e Computação em Nuvem»", "org": "COMAIP Região Centro Occidente", "highlight": false },
+      { "year": 2014, "prize": "1o lugar", "title": "Concurso de Ensaio «Transparência e Prestação de Contas»", "detail": "«Inovação, Participação e Democracia»", "org": "Comisión Bicameral e Canal del Congreso", "highlight": false },
+      { "year": 2013, "prize": "1o lugar", "title": "Concurso Estadual de Ensaio Político", "detail": "«Urnas Eletrônicas e Confiança»", "org": "Instituto Electoral y de Participación Ciudadana Jalisco", "highlight": false },
+      { "year": 2012, "prize": "3o lugar", "title": "2o Concurso de Ensaio «Eleições e Democracia»", "detail": "«Pluralismo e Juventude»", "org": "Comisión Bicameral e Canal del Congreso", "highlight": false },
+      { "year": 2012, "prize": "2o lugar", "title": "Terceiro Certame Cátedra UNESCO", "detail": "«Indiferença, Violência e Castigo»", "org": "CONAPRED / Universidad de Guadalajara", "highlight": false },
+      { "year": 2012, "prize": "Menção honrosa", "title": "6o Prêmio Regional sobre Transparência", "detail": "«A Importância do Saber»", "org": "COMAIP Região Centro Occidente", "highlight": false },
+      { "year": 2012, "prize": "1o lugar", "title": "Concurso Estadual de Conto Político", "detail": "«La defensa francesa»", "org": "Instituto Electoral y de Participación Ciudadana Jalisco", "highlight": false }
+    ]
+  },
+  "footer": {
+    "tagline": "Construído com intenção.",
+    "links": {
+      "linkedin": "https://linkedin.com/in/juanmaciassierra",
+      "github": "https://github.com/DanielMasierra",
+      "email": "mailto:juanmacias.sierra@gmail.com",
+      "twitter": "https://twitter.com/JMaciasSierra"
+    }
+  }
+}
