@@ -169,3 +169,35 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* Footer layout */
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media (max-width: 480px) {
+  .footer-inner {
+    flex-direction: column;
+  }
+}
+
+/* ===== RESPONSIVE MOBILE ===== */
+
+/* Base mobile adjustments */
+@media (max-width: 768px) {
+
+  /* Hero */
+  section[style] {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* Nav scrollable on mobile */
+  nav {
+    padding: 0.6rem 1rem !important;
+  }
+}

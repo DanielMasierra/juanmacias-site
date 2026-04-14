@@ -14,7 +14,7 @@ export default function Timeline() {
   return (
     <section id="timeline" style={{ padding: '3rem 1.5rem', borderBottom: '1px solid var(--color-outline-variant)' }}>
       <div className="section-title">{t('title')}</div>
-      <div style={{ position: 'relative', paddingLeft: '1.5rem' }}>
+      <div style={{ position: 'relative', paddingLeft: '1.25rem' }}>
         <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: '1px', backgroundColor: 'var(--color-outline-variant)' }} />
         {items.map((item, i) => (
           <div key={i} style={{ position: 'relative', marginBottom: '1.5rem' }}>

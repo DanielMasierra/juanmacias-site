@@ -57,7 +57,7 @@ export default function Hero() {
       </p>
 
       {/* Stats */}
-      <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '0.75rem', width: '100%' }}>
         {stats.map((stat, i) => (
           <div key={i} style={{
             backgroundColor: 'var(--bg-container)',

@@ -13,19 +13,24 @@ import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <main style={{ maxWidth: '860px', margin: '0 auto' }}>
-      <Nav />
-      <Hero />
-      <About />
-      <Projects />
-      <Stack />
-      <Timeline />
-      <Teaching />
-      <Publications />
-      <Conferences />
-      <Awards />
-      <Fellowships />
-      <Footer />
-    </main>
+    <div style={{
+      paddingLeft: 'env(safe-area-inset-left)',
+      paddingRight: 'env(safe-area-inset-right)'
+    }}>
+      <main style={{ maxWidth: '860px', margin: '0 auto', width: '100%' }}>
+        <Nav />
+        <Hero />
+        <About />
+        <Projects />
+        <Stack />
+        <Timeline />
+        <Teaching />
+        <Publications />
+        <Conferences />
+        <Awards />
+        <Fellowships />
+        <Footer />
+      </main>
+    </div>
   );
 }

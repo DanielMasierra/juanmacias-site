@@ -8,7 +8,7 @@ export default function About() {
   return (
     <section id="about" style={{ padding: '3rem 1.5rem', borderBottom: '1px solid var(--color-outline-variant)' }}>
       <div className="section-title">{t('title')}</div>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '2rem' }}>
         <p style={{ fontSize: '0.9375rem', lineHeight: 1.8, color: 'var(--text-primary)', maxWidth: '600px' }}>
           {t('bio')}
         </p>

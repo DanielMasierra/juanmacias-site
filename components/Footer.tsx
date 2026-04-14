@@ -11,7 +11,7 @@ export default function Footer() {
       borderTop: '1px solid var(--color-outline-variant)',
       padding: '2rem 1.5rem',
     }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '1rem' }}>
+      <div className="footer-inner">
         <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>
           {Object.entries(links).map(([key, url]) => (
             <a key={key} href={url} target={key !== 'email' ? '_blank' : undefined} rel="noopener noreferrer"

@@ -23,7 +23,21 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: "Juan Macías Sierra",
-  description: "Derecho · Ética de IA · Gobernanza Digital · Ciencia de Datos",
+  description: "En la intersección del Derecho, la Inteligencia Artificial y su Gobernanza Ética.",
+  openGraph: {
+    title: "Juan Macías Sierra",
+    description: "En la intersección del Derecho, la Inteligencia Artificial y su Gobernanza Ética.",
+    url: "https://juanmacias.site",
+    siteName: "Juan Macías Sierra",
+    locale: "es_MX",
+    type: "website"
+  },
+  twitter: {
+    card: "summary",
+    title: "Juan Macías Sierra",
+    description: "En la intersección del Derecho, la Inteligencia Artificial y su Gobernanza Ética.",
+    creator: "@JMaciasSierra"
+  }
 };
 
 export default async function RootLayout({

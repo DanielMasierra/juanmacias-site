@@ -32,7 +32,7 @@ export default function Nav() {
     }}>
       <div style={{
         display: 'flex',
-        gap: '1rem',
+        gap: '0.75rem',
         flexWrap: 'nowrap',
         overflowX: 'auto',
         scrollbarWidth: 'none',
@@ -46,7 +46,7 @@ export default function Nav() {
             href={`#${item}`}
             style={{
               fontFamily: 'var(--font-mono)',
-              fontSize: '0.75rem',
+              fontSize: '0.7rem',
               color: 'var(--text-secondary)',
               textDecoration: 'none',
               transition: 'color 0.2s',
