@@ -78,10 +78,10 @@
       { "period": "2022–presente", "role": "Diretor de Recursos Humanos e Financeiros", "org": "Contraloría del Estado de Jalisco", "type": "work" },
       { "period": "2022–presente", "role": "Secretário Geral", "org": "AMCID", "type": "work" },
       { "period": "2021–2022", "role": "Diretor de Área Técnica e Situação Patrimonial", "org": "Contraloría del Estado de Jalisco", "type": "work" },
-      { "period": "2019–2021", "role": "Mestrado em Direito", "org": "Universidad Nacional Autónoma de México (UNAM)", "type": "education", "thesis": "Agentes Morais Artificiais: questões éticas, implicações jurídicas e o papel dos Comitês de Ética em Inteligência Artificial", "advisor": "Dra. María de Jesús Medina Arellano", "thesis_url": null },
+      { "period": "2019–2021", "role": "Mestrado em Direito", "org": "Universidad Nacional Autónoma de México (UNAM)", "type": "education", "thesis": "Agentes Morais Artificiais: questões éticas, implicações jurídicas e o papel dos Comitês de Ética em Inteligência Artificial", "advisor": "Dra. María de Jesús Medina Arellano", "thesis_url": "https://tesiunam.dgb.unam.mx/F/Q4VNNDKSPHXPMG2LKC9P1MQ7XTKDPBGESM2PFID9QUCA3EQD7K-01071?func=find-b&local_base=TES01&request=juan+daniel+macias+sierra&find_code=WRD&adjacent=N&filter_code_2=WYR&filter_request_2=&filter_code_3=WYR&filter_request_3="},
       { "period": "2019–presente", "role": "Membro, Linha de Pesquisa Direito e IA", "org": "IIJ, UNAM", "type": "work" },
       { "period": "2019–2021", "role": "Professor — Blockchain e Implicações Legais", "org": "Universidad Anáhuac Online", "type": "work" },
-      { "period": "2018–2020", "role": "Mestrado em Direito das TIC", "org": "INFOTEC", "type": "education", "thesis": "A Governança da Internet no México: sugestões para fortalecer seu modelo multiparticipativo", "advisor": null, "thesis_url": null },
+      { "period": "2018–2020", "role": "Mestrado em Direito das TIC", "org": "INFOTEC", "type": "education", "thesis": "A Governança da Internet no México: sugestões para fortalecer seu modelo multiparticipativo", "advisor": null, "thesis_url": "https://infotec.repositorioinstitucional.mx/jspui/handle/1027/500"},
       { "period": "2016–2019", "role": "Analista de Informação, Estratégia Digital Nacional", "org": "Presidencia de la República", "type": "work" },
       { "period": "2014–2016", "role": "Assistente de Pesquisa", "org": "IIJ, UNAM", "type": "work" },
       { "period": "2010–2015", "role": "Bacharelado em Direito", "org": "Universidad de Guadalajara", "type": "education" }

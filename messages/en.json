@@ -78,10 +78,10 @@
       { "period": "2022–present", "role": "Director of Human & Financial Resources", "org": "Contraloría del Estado de Jalisco", "type": "work" },
       { "period": "2022–present", "role": "Secretary General", "org": "AMCID", "type": "work" },
       { "period": "2021–2022", "role": "Director of Technical Area & Asset Disclosure", "org": "Contraloría del Estado de Jalisco", "type": "work" },
-      { "period": "2019–2021", "role": "Master of Law", "org": "Universidad Nacional Autónoma de México (UNAM)", "type": "education", "thesis": "Artificial Moral Agents: ethical questions, legal implications, and the role of AI Ethics Committees", "advisor": "Dr. María de Jesús Medina Arellano", "thesis_url": null },
+      { "period": "2019–2021", "role": "Master of Law", "org": "Universidad Nacional Autónoma de México (UNAM)", "type": "education", "thesis": "Artificial Moral Agents: ethical questions, legal implications, and the role of AI Ethics Committees", "advisor": "Dr. María de Jesús Medina Arellano", "thesis_url": "https://tesiunam.dgb.unam.mx/F/Q4VNNDKSPHXPMG2LKC9P1MQ7XTKDPBGESM2PFID9QUCA3EQD7K-01071?func=find-b&local_base=TES01&request=juan+daniel+macias+sierra&find_code=WRD&adjacent=N&filter_code_2=WYR&filter_request_2=&filter_code_3=WYR&filter_request_3="},
       { "period": "2019–present", "role": "Member, Law & AI Research Line", "org": "IIJ, UNAM", "type": "work" },
       { "period": "2019–2021", "role": "Professor — Blockchain & Legal Implications", "org": "Universidad Anáhuac Online", "type": "work" },
-      { "period": "2018–2020", "role": "Master in ICT Law", "org": "INFOTEC", "type": "education", "thesis": "Internet Governance in Mexico: proposals to strengthen its multistakeholder model", "advisor": null, "thesis_url": null },
+      { "period": "2018–2020", "role": "Master in ICT Law", "org": "INFOTEC", "type": "education", "thesis": "Internet Governance in Mexico: proposals to strengthen its multistakeholder model", "advisor": null, "thesis_url": "https://infotec.repositorioinstitucional.mx/jspui/handle/1027/500"},
       { "period": "2016–2019", "role": "Information Analyst, National Digital Strategy", "org": "Presidencia de la República", "type": "work" },
       { "period": "2014–2016", "role": "Research Assistant", "org": "IIJ, UNAM", "type": "work" },
       { "period": "2010–2015", "role": "Bachelor of Laws (LLB)", "org": "Universidad de Guadalajara", "type": "education" }
