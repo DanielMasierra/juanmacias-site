@@ -14,7 +14,7 @@ export default function Nav() {
     router.push(segments.join('/'));
   };
 
-  const navItems = ['about', 'projects', 'stack', 'publications', 'conferences', 'teaching', 'fellowships', 'awards', 'contact'] as const;
+  const navItems = ['about', 'projects', 'stack', 'publications', 'conferences', 'teaching', 'fellowships', 'awards'] as const;
 
   return (
     <nav style={{

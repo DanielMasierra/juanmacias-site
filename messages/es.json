@@ -7,8 +7,7 @@
     "conferences": "~/congresos",
     "teaching": "~/docencia",
     "awards": "~/premios",
-    "fellowships": "~/fellowships",
-    "contact": "~/contacto"
+    "fellowships": "~/fellowships"
   },
   "hero": {
     "prompt": "~/juan@juanmacias.site:~$_",
