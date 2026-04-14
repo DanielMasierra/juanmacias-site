@@ -79,6 +79,33 @@ export default function Hero() {
           </div>
         ))}
       </div>
+
+      {/* Social links */}
+      <div style={{ display: 'flex', gap: '1.5rem', marginTop: '1.5rem', flexWrap: 'wrap' }}>
+        {[
+          { key: 'linkedin', url: 'https://linkedin.com/in/juanmaciassierra', label: '[linkedin]' },
+          { key: 'github', url: 'https://github.com/DanielMasierra', label: '[github]' },
+          { key: 'twitter', url: 'https://twitter.com/JMaciasSierra', label: '[twitter]' }
+        ].map((link) => (
+          <a
+            key={link.key}
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              fontFamily: 'var(--font-mono)',
+              fontSize: '0.8rem',
+              color: 'var(--text-secondary)',
+              textDecoration: 'none',
+              transition: 'color 0.2s'
+            }}
+            onMouseEnter={e => (e.currentTarget.style.color = 'var(--color-primary)')}
+            onMouseLeave={e => (e.currentTarget.style.color = 'var(--text-secondary)')}
+          >
+            {link.label}
+          </a>
+        ))}
+      </div>
     </section>
   );
 }
