@@ -7,6 +7,7 @@
     "conferences": "~/congressos",
     "teaching": "~/docência",
     "awards": "~/prêmios",
+    "fellowships": "~/fellowships",
     "contact": "~/contato"
   },
   "hero": {
@@ -133,9 +134,7 @@
   "awards": {
     "title": "> awards.log",
     "items": [
-      { "year": 2019, "prize": "Fellow", "title": "Escola do Sul de Governança da Internet", "org": "Cidade do México", "highlight": false },
       { "year": 2017, "prize": "2o lugar", "title": "III Prêmio Valentín Carrascosa, FIADI", "detail": "«Governança da Internet e a Comunidade Acadêmica»", "org": "Federación Iberoamericana de Asociaciones de Derecho e Informática", "highlight": false },
-      { "year": 2017, "prize": "Fellow", "title": "ICANN Fellow — 60a Reunião Geral", "detail": "Abu Dhabi, Emirados Árabes Unidos", "org": "Internet Corporation for Assigned Names and Numbers", "highlight": true },
       { "year": 2014, "prize": "1o lugar", "title": "7o Concurso «Universitários Construindo Transparência»", "detail": "«Vamos Abrindo!»", "org": "InfoDF", "highlight": false },
       { "year": 2014, "prize": "1o lugar", "title": "7o Prêmio Regional «Construindo a Transparência 2014»", "detail": "«Arquivos Governamentais e Computação em Nuvem»", "org": "COMAIP Região Centro Occidente", "highlight": false },
       { "year": 2014, "prize": "1o lugar", "title": "Concurso de Ensaio «Transparência e Prestação de Contas»", "detail": "«Inovação, Participação e Democracia»", "org": "Comisión Bicameral e Canal del Congreso", "highlight": false },
@@ -144,6 +143,27 @@
       { "year": 2012, "prize": "2o lugar", "title": "Terceiro Certame Cátedra UNESCO", "detail": "«Indiferença, Violência e Castigo»", "org": "CONAPRED / Universidad de Guadalajara", "highlight": false },
       { "year": 2012, "prize": "Menção honrosa", "title": "6o Prêmio Regional sobre Transparência", "detail": "«A Importância do Saber»", "org": "COMAIP Região Centro Occidente", "highlight": false },
       { "year": 2012, "prize": "1o lugar", "title": "Concurso Estadual de Conto Político", "detail": "«La defensa francesa»", "org": "Instituto Electoral y de Participación Ciudadana Jalisco", "highlight": false }
+    ]
+  },
+  "fellowships": {
+    "title": "> fellowships.log",
+    "items": [
+      {
+        "year": 2017,
+        "title": "ICANN Fellow",
+        "event": "60a Reunião Geral da ICANN",
+        "org": "Internet Corporation for Assigned Names and Numbers",
+        "location": "Abu Dhabi, Emirados Árabes Unidos",
+        "highlight": true
+      },
+      {
+        "year": 2019,
+        "title": "Fellow",
+        "event": "Escola do Sul de Governança da Internet",
+        "org": "Southern School on Internet Governance",
+        "location": "Cidade do México",
+        "highlight": false
+      }
     ]
   },
   "footer": {

@@ -8,6 +8,7 @@ import Teaching from '@/components/Teaching';
 import Publications from '@/components/Publications';
 import Conferences from '@/components/Conferences';
 import Awards from '@/components/Awards';
+import Fellowships from '@/components/Fellowships';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <Publications />
       <Conferences />
       <Awards />
+      <Fellowships />
       <Footer />
     </main>
   );

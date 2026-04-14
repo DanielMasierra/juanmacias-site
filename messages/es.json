@@ -7,6 +7,7 @@
     "conferences": "~/congresos",
     "teaching": "~/docencia",
     "awards": "~/premios",
+    "fellowships": "~/fellowships",
     "contact": "~/contacto"
   },
   "hero": {
@@ -133,9 +134,7 @@
   "awards": {
     "title": "> awards.log",
     "items": [
-      { "year": 2019, "prize": "Fellow", "title": "Escuela del Sur de Gobernanza de Internet", "org": "Ciudad de México", "highlight": false },
       { "year": 2017, "prize": "2do lugar", "title": "III Premio Valentín Carrascosa, FIADI", "detail": "«Gobernanza de Internet y comunidad académica, Reflexiones en torno al rol de la FIADI para el desarrollo de Internet en la región»", "org": "Federación Iberoamericana de Asociaciones de Derecho e Informática", "highlight": false },
-      { "year": 2017, "prize": "Fellow", "title": "ICANN Fellow — 60a Reunión General", "detail": "Abu Dhabi, Emiratos Árabes Unidos", "org": "Internet Corporation for Assigned Names and Numbers", "highlight": true },
       { "year": 2014, "prize": "1er lugar", "title": "7o Concurso «Universitarios Construyendo Transparencia»", "detail": "«¡Vámonos abriendo!: aspectos jurídicos para la consecución del Gobierno Abierto en el Distrito Federal»", "org": "InfoDF", "highlight": false },
       { "year": 2014, "prize": "1er lugar", "title": "7o Premio Regional «Construyendo la Transparencia 2014»", "detail": "«Archivos Gubernamentales y Cómputo en la Nube»", "org": "COMAIP Región Centro Occidente", "highlight": false },
       { "year": 2014, "prize": "1er lugar", "title": "Concurso de Ensayo «Transparencia y Rendición de Cuentas»", "detail": "«Innovación, Participación y Democracia: el papel del Canal del Congreso»", "org": "Comisión Bicameral y Canal del Congreso", "highlight": false },
@@ -144,6 +143,27 @@
       { "year": 2012, "prize": "2do lugar", "title": "Tercer Certamen Cátedra UNESCO", "detail": "«Indiferencia, Violencia y Castigo: el precio de ser trabajadora sexual en Guadalajara»", "org": "CONAPRED / Universidad de Guadalajara", "highlight": false },
       { "year": 2012, "prize": "Mención honorífica", "title": "6o Premio Regional sobre Transparencia", "detail": "«La importancia del saber: el Derecho de Acceso a la Información como constructor de mejores democracias»", "org": "COMAIP Región Centro Occidente", "highlight": false },
       { "year": 2012, "prize": "1er lugar", "title": "Concurso Estatal de Cuento Político", "detail": "«La defensa francesa»", "org": "Instituto Electoral y de Participación Ciudadana Jalisco", "highlight": false }
+    ]
+  },
+  "fellowships": {
+    "title": "> fellowships.log",
+    "items": [
+      {
+        "year": 2017,
+        "title": "ICANN Fellow",
+        "event": "60a Reunión General de la ICANN",
+        "org": "Internet Corporation for Assigned Names and Numbers",
+        "location": "Abu Dhabi, Emiratos Árabes Unidos",
+        "highlight": true
+      },
+      {
+        "year": 2019,
+        "title": "Fellow",
+        "event": "Escuela del Sur de Gobernanza de Internet",
+        "org": "Southern School on Internet Governance",
+        "location": "Ciudad de México",
+        "highlight": false
+      }
     ]
   },
   "footer": {
