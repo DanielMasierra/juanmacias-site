@@ -23,10 +23,22 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: "Juan Macías Sierra",
-  description: "En la intersección del Derecho, la Inteligencia Artificial y su Gobernanza Ética.",
+  description: "En la intersección del Derecho, la Inteligencia Artificial y su Gobernanza Ética. Funcionario público, miembro del IIJ-UNAM y Secretario General de la AMCID.",
+  keywords: ["Juan Macías Sierra", "derecho TIC", "ética de la IA", "gobernanza de internet", "inteligencia artificial", "AMCID", "IIJ UNAM", "Contraloría Jalisco"],
+  authors: [{ name: "Juan Macías Sierra", url: "https://juanmacias.site" }],
+  creator: "Juan Macías Sierra",
+  metadataBase: new URL("https://juanmacias.site"),
+  alternates: {
+    canonical: "https://juanmacias.site",
+    languages: {
+      "es": "https://juanmacias.site/es",
+      "en": "https://juanmacias.site/en",
+      "pt": "https://juanmacias.site/pt",
+    }
+  },
   icons: {
-    icon: '/favicon.svg',
-    shortcut: '/favicon.svg',
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
   },
   openGraph: {
     title: "Juan Macías Sierra",
@@ -34,13 +46,30 @@ export const metadata: Metadata = {
     url: "https://juanmacias.site",
     siteName: "Juan Macías Sierra",
     locale: "es_MX",
-    type: "website"
+    type: "profile",
+    images: [
+      {
+        url: "/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "Juan Macías Sierra — Derecho · Ética de la IA · Ciencia de Datos"
+      }
+    ]
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Juan Macías Sierra",
     description: "En la intersección del Derecho, la Inteligencia Artificial y su Gobernanza Ética.",
-    creator: "@JMaciasSierra"
+    creator: "@JMaciasSierra",
+    images: ["/og-image.svg"]
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    }
   }
 };
 

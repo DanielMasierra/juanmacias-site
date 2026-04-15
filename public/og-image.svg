@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#111319"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="4" height="630" fill="#68dbae"/>
+
+  <!-- macOS dots -->
+  <circle cx="48" cy="48" r="8" fill="#ff5f57"/>
+  <circle cx="72" cy="48" r="8" fill="#febc2e"/>
+  <circle cx="96" cy="48" r="8" fill="#28c840"/>
+
+  <!-- whoami prompt -->
+  <text x="48" y="140" font-family="monospace" font-size="22" fill="#68dbae">&gt; whoami</text>
+
+  <!-- Cursor -->
+  <rect x="178" y="120" width="14" height="22" fill="#68dbae" opacity="0.9"/>
+
+  <!-- Name -->
+  <text x="48" y="230" font-family="monospace" font-size="64" font-weight="500" fill="#e2e2eb">Juan Macías Sierra</text>
+
+  <!-- Subtitle -->
+  <text x="48" y="295" font-family="monospace" font-size="24" fill="#68dbae">// Derecho · Ética de la IA · Ciencia de Datos</text>
+
+  <!-- Tagline -->
+  <text x="48" y="360" font-family="monospace" font-size="20" fill="#bccac1">En la intersección del Derecho, la Inteligencia Artificial y su Gobernanza Ética.</text>
+
+  <!-- Divider -->
+  <rect x="48" y="410" width="400" height="1" fill="#3d4943"/>
+
+  <!-- Roles -->
+  <text x="48" y="450" font-family="monospace" font-size="16" fill="#bccac1">Contraloría del Estado de Jalisco  ·  IIJ-UNAM  ·  AMCID</text>
+
+  <!-- Domain -->
+  <text x="48" y="510" font-family="monospace" font-size="18" fill="#68dbae">juanmacias.site</text>
+
+  <!-- Bottom scanline hint -->
+  <rect x="0" y="620" width="1200" height="10" fill="#68dbae" opacity="0.15"/>
+</svg>
