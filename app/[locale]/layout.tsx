@@ -13,7 +13,7 @@ const inter = Inter({
 
 const shareTechMono = Share_Tech_Mono({
   subsets: ["latin"],
-  variable: "--font-mono",
+  variable: "--font-share-tech",
   weight: "400"
 });
 
