@@ -61,10 +61,10 @@
   },
   "stack": {
     "title": "> stack.json",
-    "legal_label": "Law & Policy",
+    "legal_label": "Law",
     "tech_label": "Technology",
-    "legal": ["AI Ethics", "Internet Governance", "ICT Law", "Data Protection", "Public ICT Procurement"],
-    "tech": ["Python", "JavaScript", "Next.js", "Supabase", "n8n", "Claude API", "Data Science", "Git/GitHub"]
+    "legal": ["AI Ethics", "Internet Governance", "ICT Law", "Data Protection"],
+    "tech": ["Python", "Neo4j", "Supabase", "n8n", "Claude API", "Data Science", "Git/GitHub"]
   },
   "timeline": {
     "title": "> career_log",

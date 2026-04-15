@@ -61,10 +61,10 @@
   },
   "stack": {
     "title": "> stack.json",
-    "legal_label": "Direito e Política",
+    "legal_label": "Direito",
     "tech_label": "Tecnologia",
-    "legal": ["Ética da IA", "Governança da Internet", "Direito das TIC", "Proteção de Dados", "Contratação Pública de TIC"],
-    "tech": ["Python", "JavaScript", "Next.js", "Supabase", "n8n", "Claude API", "Ciência de Dados", "Git/GitHub"]
+    "legal": ["Ética da IA", "Governança da Internet", "Direito das TIC", "Proteção de Dados"],
+    "tech": ["Python", "Neo4j", "Supabase", "n8n", "Claude API", "Ciência de Dados", "Git/GitHub"]
   },
   "timeline": {
     "title": "> career_log",
