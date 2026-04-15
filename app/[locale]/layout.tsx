@@ -19,6 +19,7 @@ const jetbrainsMono = JetBrains_Mono({
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
   variable: "--font-display",
+  weight: ["400", "500", "700"]
 });
 
 export const metadata: Metadata = {
