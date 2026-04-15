@@ -101,6 +101,7 @@
     "show_more": "View all publications",
     "show_less": "Show less",
     "items": [
+      { "year": 2025, "title": "Beyond the Data: Preventive Auditing with Artificial Intelligence", "venue": "Contraloría del Estado de Jalisco — Contravirtual Blog", "role": "Author", "url": "https://contravirtual.jalisco.gob.mx/nodos/article/mas-alla-del-dato-auditoria-preventiva-con-inteligencia-artificial/" },
       { "year": 2022, "title": "Neuroethics, Neurolegal Studies and Artificial Intelligence. Transversal Teaching in Bioethics and Biolaw", "venue": "Instituto de Investigaciones Jurídicas, UNAM", "isbn": "978-607-30-6440-8", "role": "Co-author", "url": "https://biblio.juridicas.unam.mx/bjv/detalle-libro/6015-10-etica-de-investigacion-en-animales-ensenanza-transversal-en-bioetica-y-bioderecho-cuadernillos-digitales-de-casos" },
       { "year": 2017, "title": "A Legal Framework for Internet Governance", "venue": "Youth Observatory ISG / Internet Society", "pages": "115–120" },
       { "year": 2016, "title": "Geolocation, Metadata and Privacy: Analysis of Amparo en Revisión 964/2015", "venue": "XX FIADI Congress, Universidad de Salamanca", "isbn": "978-84-16324-43-9", "pages": "187–200" },
