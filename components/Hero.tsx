@@ -27,11 +27,11 @@ export default function Hero() {
       {/* Name */}
       <h1 style={{
         fontFamily: 'var(--font-display)',
-        fontSize: 'clamp(3rem, 10vw, 6rem)',
+        fontSize: 'clamp(2.2rem, 6vw, 4rem)',
         fontWeight: 700,
         color: 'var(--text-primary)',
-        letterSpacing: '-0.03em',
-        lineHeight: 1.0,
+        letterSpacing: '-0.02em',
+        lineHeight: 1.1,
         marginBottom: '0.75rem'
       }}>
         {t('name')}
