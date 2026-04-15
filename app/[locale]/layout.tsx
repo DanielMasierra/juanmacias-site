@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { JetBrains_Mono } from "next/font/google";
+import { Share_Tech_Mono } from "next/font/google";
 import { Space_Grotesk } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -11,9 +11,10 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-const jetbrainsMono = JetBrains_Mono({
+const shareTechMono = Share_Tech_Mono({
   subsets: ["latin"],
   variable: "--font-mono",
+  weight: "400"
 });
 
 const spaceGrotesk = Space_Grotesk({
@@ -85,7 +86,7 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${inter.variable} ${jetbrainsMono.variable} ${spaceGrotesk.variable}`}>
+    <html lang={locale} className={`${inter.variable} ${shareTechMono.variable} ${spaceGrotesk.variable}`}>
       <body>
         <NextIntlClientProvider messages={messages}>
           {children}
