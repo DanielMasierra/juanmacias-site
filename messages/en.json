@@ -3,9 +3,7 @@
     "about": "~/about",
     "projects": "~/projects",
     "stack": "~/stack",
-    "publications": "~/publications",
-    "conferences": "~/conferences",
-    "teaching": "~/teaching",
+    "academia": "~/academia",
     "awards": "~/awards",
     "fellowships": "~/fellowships"
   },

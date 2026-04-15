@@ -16,7 +16,7 @@ export default function Nav() {
     router.push(segments.join('/'));
   };
 
-  const navItems = ['about', 'projects', 'stack', 'publications', 'conferences', 'teaching', 'fellowships', 'awards'] as const;
+  const navItems = ['about', 'projects', 'stack', 'academia', 'fellowships', 'awards'] as const;
 
   const linkStyle: React.CSSProperties = {
     fontFamily: 'var(--font-mono)',
