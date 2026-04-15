@@ -8,7 +8,7 @@
     "fellowships": "~/fellowships"
   },
   "hero": {
-    "prompt": "~/juan@juanmacias.site:~$_",
+    "prompt": "> whoami",
     "name": "Juan Macías Sierra",
     "subtitle": "// Direito · Ética de IA · Ciência de Dados",
     "tagline": "Na interseção do Direito, a Inteligência Artificial e sua Governança Ética.",
