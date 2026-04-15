@@ -3,7 +3,8 @@ import { useTranslations } from 'next-intl';
 
 export default function Hero() {
   const t = useTranslations('hero');
-  const stats = t.raw('stats') as Array<{ value: string; label: string; sub: string }>;
+  const statsRaw = t.raw('stats');
+  const stats = Array.isArray(statsRaw) ? statsRaw as Array<{ value: string; label: string; sub: string }> : [];
 
   return (
     <section style={{
@@ -51,7 +52,9 @@ export default function Hero() {
         fontSize: '0.9rem',
         color: 'var(--text-secondary)',
         marginBottom: '2rem',
-        maxWidth: '600px'
+        maxWidth: '600px',
+        fontFamily: 'var(--font-sans)',
+        lineHeight: 1.7
       }}>
         {t('tagline')}
       </p>
@@ -71,9 +74,9 @@ export default function Hero() {
               fontWeight: 500,
               color: 'var(--color-primary)'
             }}>
-              {stat.value} <span style={{ fontSize: '0.75rem' }}>{stat.label}</span>
+              {stat.value} <span style={{ fontSize: '0.75rem', fontFamily: 'var(--font-sans)', color: 'var(--text-secondary)' }}>{stat.label}</span>
             </div>
-            <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)', fontFamily: 'var(--font-mono)' }}>
+            <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)', fontFamily: 'var(--font-sans)' }}>
               {stat.sub}
             </div>
           </div>
