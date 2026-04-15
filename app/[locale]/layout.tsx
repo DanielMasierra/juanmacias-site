@@ -24,6 +24,10 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Juan Macías Sierra",
   description: "En la intersección del Derecho, la Inteligencia Artificial y su Gobernanza Ética.",
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+  },
   openGraph: {
     title: "Juan Macías Sierra",
     description: "En la intersección del Derecho, la Inteligencia Artificial y su Gobernanza Ética.",
